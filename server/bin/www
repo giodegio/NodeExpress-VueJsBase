@@ -15,7 +15,7 @@ var logServer = loglib.getLogger('server');
  * Get port from environment and store in Express.
  */
 
-var port = normalizePort(process.env.PORT || '3000');
+var port = normalizePort(process.env.PORT || '3300');
 logServer.debug('Setting listening port to: ' + port);
 app.set('port', port);
 
